@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌸 Mi Portafolio</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="btn-tema">Modo Oscuro Rosado</button>
+        </nav>
+    </header>
+
+  
+    <section id="inicio" class="hero">
+        <h1 id="saludo">¡Hola!</h1>
+        <p>Bienvenido/a a mi portafolio de programación y desarrollo web ✨</p>
+    </section>
+
+    <section id="sobre-mi" class="seccion">
+        <h2>Sobre mí</h2>
+        <div class="perfil-contenedor">
+    <img src="img/avatar.jpg" height="180" alt="">
+            <div class="perfil-texto">
+                <p>Hola!, soy una estudiante de 4°medio del electivo de programación, me gusta aprender sobre css y las páginas web.</p>
+                <p id="texto-extra" class="oculto">Actualmente estoy trabajando en mi ultimo proyecto usando HTML, CSS y JavaScript.</p>
+                <button id="btn-ver-mas">Ver más</button>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="proyectos" class="seccion">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-grid">
+
+            <!-- Proyecto 1: Wireframe JS -->
+            <article class="card">
+                <img src="img/flormania.jpg.jpeg" alt="Flormanía">
+                <div class="card-content">
+                    <h3>Replicación de Wireframe</h3>
+                    <p>Página web responsive que replica un alambre de diseño agregando interactividad básica en JS y estructura dinámica.</p>
+                    <p class="tech"><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+                    
+                </div>
+            </article>
+
+            <!-- Proyecto 2: Java -->
+            <article class="card">
+                <img src="img/proyectojava.jpg.png" alt="Mascotas">
+                <div class="card-content">
+                    <h3>Programa de Gestión en Java</h3>
+                    <p>Aplicación de consola desarrollada en el primer semestre para procesar datos y gestionar inventarios/entradas.</p>
+                    <p class="tech"><strong>Tecnologías:</strong> Java, Scanner, Arreglos, Ciclos</p>
+                    <a href="https://github.com/mqfiii/POO-Mascotas/blob/master/src/Mascota.java" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Repositorio</a>
+                </div>
+            </article>
+
+            <!-- Proyecto 3: Proyecto a elección -->
+            <article class="card">
+                <img src="img/proyecto.jpg.png" alt="Portafolio css">
+                <div class="card-content">
+                    <h3>Página Web Personal</h3>
+                    <p>Sitio web informativo diseñado para mostrar contenido interactivo y estilizado a medida.</p>
+                    <p class="tech"><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript</p>
+                    <a href="https://github.com/mqfiii/Portafolio-css/blob/main/index.html" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Repositorio</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>¿Quieres conocer más de mi trabajo o colaborar en un proyecto?</p>
+        <div class="contacto-links">
+            <a href="https://github.com/mqfiii" target="_blank" rel="noopener noreferrer" class="btn-contacto">Mi Perfil de GitHub 🚀</a>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 - Diseñado con 💖 y código</p>
+        <button id="btn-arriba">⬆ Volver arriba</button>
+    </footer>
+
+    <!-- Script de JavaScript al final -->
+    <script src="script.js"></script>
+</body>
+</html>

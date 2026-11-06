@@ -1,17 +1,16 @@
-/* ===== VARIABLES DE COLOR (TONOS ROSADOS) ===== */
+
 :root {
-    --bg-color: #fff0f5;         /* LavenderBlush / Rosa pastel suave */
+    --bg-color: #fff0f5;        
     --card-bg: #ffffff;
-    --text-color: #4a2e35;       /* Marrón cálido elegante para texto */
-    --primary: #ff8da1;          /* Rosa vibrante suave */
+    --text-color: #4a2e35;       
+    --primary: #ff8da1;          
     --primary-hover: #ff6b8b;
-    --accent: #f8b195;           /* Durazno claro */
+    --accent: #f8b195;           
     --shadow: rgba(255, 141, 161, 0.2);
 }
 
-/* Modo oscuro rosado / Cyberpunk Pink */
 body.oscuro {
-    --bg-color: #1f121b;         /* Fondo oscuro con tinte rosa/morado */
+    --bg-color: #1f121b;         
     --card-bg: #2d1b28;
     --text-color: #fce4ec;
     --primary: #ff5c8d;
@@ -33,7 +32,6 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR */
 header {
     background-color: var(--card-bg);
     box-shadow: 0 4px 10px var(--shadow);
@@ -73,7 +71,7 @@ header {
     color: var(--primary);
 }
 
-/* HERO SECTION */
+
 .hero {
     text-align: center;
     padding: 4rem 2rem 2rem;
@@ -115,7 +113,7 @@ body.oscuro .hero {
     border-radius: 2px;
 }
 
-/* SOBRE MÍ */
+
 .perfil-contenedor {
     display: flex;
     align-items: center;
@@ -138,7 +136,7 @@ body.oscuro .hero {
     display: none;
 }
 
-/* TARJETAS DE PROYECTOS */
+
 .proyectos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -178,7 +176,7 @@ body.oscuro .hero {
     opacity: 0.9;
 }
 
-/* BOTONES */
+
 button, .btn-link, .btn-contacto {
     background-color: var(--primary);
     color: white;
@@ -207,7 +205,7 @@ button:hover, .btn-link:hover, .btn-contacto:hover {
     margin-top: 1rem;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 2rem;

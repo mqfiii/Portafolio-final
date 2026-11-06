@@ -1,4 +1,4 @@
-// 1. Saludo según la hora del día (Sección 3.5)
+
 const hora = new Date().getHours();
 const saludo = document.getElementById("saludo");
 
@@ -10,7 +10,6 @@ if (hora >= 6 && hora < 12) {
     saludo.textContent = "¡Buenas noches! 🌙";
 }
 
-// 2. Modo Oscuro Rosado / Modo Claro (Sección 3.3 - Obligatorio)
 const botonTema = document.getElementById("btn-tema");
 botonTema.addEventListener("click", function () {
     document.body.classList.toggle("oscuro");
@@ -34,7 +33,7 @@ botonVerMas.addEventListener("click", function () {
     }
 });
 
-// 4. PUNTOS EXTRA: Botón "Volver arriba" (Sección 3.7 - Puntos extra)
+
 const btnArriba = document.getElementById("btn-arriba");
 btnArriba.addEventListener("click", function () {
     window.scrollTo({
